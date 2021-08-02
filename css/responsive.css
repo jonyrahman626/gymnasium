@@ -1,0 +1,700 @@
+@media (min-width: 1400px) {
+    .prev-ar {
+        left: -40px;
+    }
+
+    .next-ar {
+        right: -40px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .prev-ar {
+        left: -30px;
+    }
+
+    .next-ar {
+        right: -30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .test-slider .slick-slide{
+        padding: 0 12px !important;
+    }
+
+    .class-inner ul li {
+        width: 19.57%;
+    }
+
+    .prev-ar {
+        left: -30px;
+    }
+
+    .next-ar {
+        right: -30px;
+    }
+    .footer-row-1 .week ul li {
+        font-size: 11px;
+    }
+
+    .footer-row-1 .icon {
+        margin-right: 9px;
+    }
+
+    .footer-row-1 .photo ul li {
+        width: 44px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-manu .navbar-brand {
+        width: 200px;
+    }
+
+    #about {
+        padding: 54px 0px;
+    }
+
+    .about-text p {
+        padding: 0px 12px 30px;
+        text-align: justify;
+    }
+
+    .about-text span {
+        margin-top: 10px;
+    }
+
+    .member-text h3 {
+        padding: 15px 0;
+    }
+
+    .member-text h2 {
+        padding: 20px 0;
+        font-size: 35px;
+    }
+
+    .member-text span {
+        font-size: 20px;
+    }
+
+    .member-text ul {
+        padding: 20px 0px 10px;
+    }
+
+    .member-text ul li {
+        margin-bottom: 10px;
+    }
+
+    .member-text {
+        margin-bottom: 15px;
+    }
+
+    #menbership {
+        padding: 0px 0px 34px;
+    }
+
+    .class-inner ul li {
+        width: 19.42%;
+        padding: 20px 0;
+    }
+
+    .class-inner ul li p {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* Menu part start */
+    .main-manu {
+        background: #e23e38;
+        top: 0px;
+    }
+
+    .main-manu .navbar-brand {
+        width: 180px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .main-manu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-manu button i {
+        color: #fff;
+    }
+
+    .main-manu ul {
+        background: #e23e38;
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #fff;
+    }
+
+    .main-manu ul li a::after {
+        display: none;
+    }
+
+    .main-manu ul li a {
+        line-height: 35px;
+    }
+
+    /* Menu part end */
+
+    /* Banner part start */
+    .banner-text h2::before,
+    .banner-text h2::after,
+    .banner-text h1::before,
+    .banner-text h1::after,
+    .banner-text p::before,
+    .banner-text p::after {
+        display: none;
+    }
+
+    .banner-item {
+        padding: 140px 0px 90px;
+    }
+
+    .banner-text h2 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+
+    .banner-text h1 {
+        font-size: 45px;
+    }
+
+    .banner-text p {
+        padding: 0px 12px;
+    }
+
+    /* Banner part end */
+
+    /* About part start */
+    #about {
+        padding: 54px 0px;
+    }
+
+    .about-text p {
+        padding: 0px 12px 30px;
+        text-align: justify;
+    }
+
+    .about-text span {
+        margin-top: 10px;
+    }
+
+    /* About part end */
+
+    /* Gallery part start */
+    .gall-bg .col-lg-4:nth-child(1) .gall-img:nth-child(2),
+    .gall-bg .col-lg-4:nth-child(2) .gall-img.gall-img:nth-child(2) {
+        margin-bottom: 12px !important;
+    }
+
+    /* Gallery part end */
+
+    /* Team part start */
+    #team {
+        padding: 44px 0px 0;
+    }
+
+    .team-main {
+        transform: translatey(-45px);
+        -webkit-transform: translatey(-45px);
+        -moz-transform: translatey(-45px);
+        -ms-transform: translatey(-45px);
+        -o-transform: translatey(-45px);
+    }
+
+    .team-main .team-img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-text {
+        border: 1px solid #ddd;
+    }
+
+    /* Team part end */
+
+    /* Test part start */
+    .test-text {
+        padding: 0 12px;
+    }
+
+    .test-slider .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+        margin-right: 7px;
+    }
+
+    #testimonial {
+        padding: 0px 0px 44px;
+    }
+
+    /* Test part end */
+
+    /* Pricing part start */
+    .member-text h3 {
+        padding: 15px 0;
+    }
+
+    .member-text h2 {
+        padding: 20px 0;
+        font-size: 35px;
+    }
+
+    .member-text span {
+        font-size: 20px;
+    }
+
+    .member-text ul {
+        padding: 20px 0px 10px;
+    }
+
+    .member-text ul li {
+        margin-bottom: 10px;
+    }
+
+    .member-text {
+        margin-bottom: 15px;
+    }
+
+    #menbership {
+        padding: 0px 0px 34px;
+    }
+
+    /* Pricing part end */
+
+    /* Counter part start */
+
+    .counter-text span {
+        font-size: 14px;
+    }
+
+    #counter {
+        padding: 0px 0px 44px;
+    }
+
+    /* Counter part end */
+
+    /* Class part start */
+    .class-manu li {
+        width: 33.33%;
+    }
+
+    .class-manu li button {
+        border-bottom: 1px solid var(--hover) !important;
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+    }
+
+    .class-manu {
+        line-height: 40px;
+    }
+
+    .class-inner ul li {
+        width: 49.51%;
+        padding: 20px 0px;
+    }
+
+    .class-inner ul li:nth-child(2),
+    .class-inner ul li:nth-child(4),
+    .class-inner ul li:nth-child(6),
+    .class-inner ul li:nth-child(8),
+    .class-inner ul li:nth-child(10) {
+        margin-right: 0;
+    }
+
+    .class-inner ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    /* Class part end */
+
+    /* Logo part start */
+    #class-part {
+        padding: 0px 0px 44px;
+    }
+
+    #slider-part {
+        padding: 0px 0px 44px;
+    }
+
+    /* Logo part end */
+
+    /* Footer part start */
+    .week {
+        padding-bottom: 15px;
+    }
+
+    .footer-row-1 h3 {
+        margin-bottom: 15px;
+    }
+
+    .footer-row-1 p {
+        margin-bottom: 15px;
+    }
+
+    .footer-row-1 p:last-child {
+        padding-bottom: 20px;
+    }
+
+    .footer-row-1 .photo ul li {
+        width: 21.95%;
+    }
+
+    .footer-row-1 .photo ul li:nth-child(4),
+    .footer-row-1 .photo ul li:nth-child(8),
+    .footer-row-1 .photo ul li:last-child {
+        margin-right: 0;
+    }
+
+    .photo {
+        padding-bottom: 15px;
+    }
+
+    .footer-row-1 a {
+        padding-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .foot_cont a:nth-child(2),
+    .foot_cont a:nth-child(3),
+    .foot_cont a:nth-child(4) {
+        display: block;
+    }
+
+    /* Footer part end */
+}
+
+@media (max-width: 575.98px) {
+
+    /* Menu part start */
+    .main-manu {
+        background: #e23e38;
+        top: 0px;
+    }
+
+    .main-manu .navbar-brand {
+        width: 180px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .main-manu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-manu button i {
+        color: #fff;
+    }
+
+    .main-manu ul {
+        background: #e23e38;
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #fff;
+    }
+
+    .main-manu ul li a::after {
+        display: none;
+    }
+
+    .main-manu ul li a {
+        line-height: 35px;
+    }
+
+    /* Menu part end */
+
+    /* Banner part start */
+    .banner-text h2::before,
+    .banner-text h2::after,
+    .banner-text h1::before,
+    .banner-text h1::after,
+    .banner-text p::before,
+    .banner-text p::after {
+        display: none;
+    }
+
+    .banner-item {
+        padding: 110px 0px 70px;
+    }
+
+    .banner-text h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .banner-text p {
+        padding: 0px 12px;
+    }
+
+    .banner-text a {
+        font-size: 14px;
+        padding: 0 12px;
+        border: 1px solid #f1f1f1;
+        margin: 0 5px;
+    }
+
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        background: var(--hover);
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Banner part end */
+
+    /* About part start */
+    #about {
+        padding: 44px 0px;
+    }
+
+    .about-text p {
+        padding: 0px 12px 30px;
+        text-align: justify;
+    }
+
+    .about-text span {
+        margin-top: 10px;
+    }
+
+    /* About part end */
+
+    /* Gallery part start */
+    .gall-bg .col-lg-4:nth-child(1) .gall-img:nth-child(2),
+    .gall-bg .col-lg-4:nth-child(2) .gall-img.gall-img:nth-child(2) {
+        margin-bottom: 12px !important;
+    }
+
+    /* Gallery part end */
+
+    /* Team part start */
+    #team {
+        padding: 44px 0px 0;
+    }
+
+    .team-main {
+        transform: translatey(-45px);
+        -webkit-transform: translatey(-45px);
+        -moz-transform: translatey(-45px);
+        -ms-transform: translatey(-45px);
+        -o-transform: translatey(-45px);
+    }
+
+    .team-main .team-img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-text {
+        border: 1px solid #ddd;
+    }
+
+    /* Team part end */
+
+    /* Test part start */
+    .test-text {
+        padding: 0 12px;
+    }
+
+    .test-slider .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+        margin-right: 7px;
+    }
+
+    #testimonial {
+        padding: 0px 0px 44px;
+    }
+
+    /* Test part end */
+
+    /* Pricing part start */
+    .member-text h3 {
+        padding: 15px 0;
+    }
+
+    .member-text h2 {
+        padding: 20px 0;
+        font-size: 35px;
+    }
+
+    .member-text span {
+        font-size: 20px;
+    }
+
+    .member-text ul {
+        padding: 20px 0px 10px;
+    }
+
+    .member-text ul li {
+        margin-bottom: 10px;
+    }
+
+    .member-text {
+        margin-bottom: 15px;
+    }
+
+    #menbership {
+        padding: 0px 0px 34px;
+    }
+
+    /* Pricing part end */
+
+    /* Counter part start */
+    .counter-text h2 {
+        font-size: 25px;
+    }
+
+    .counter-text span {
+        font-size: 14px;
+    }
+
+    #counter {
+        padding: 0px 0px 44px;
+    }
+
+    /* Counter part end */
+
+    /* Class part start */
+    .class-manu li {
+        width: 33.33%;
+    }
+
+    .class-manu li button {
+        border-bottom: 1px solid var(--hover) !important;
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+    }
+
+    .class-manu {
+        line-height: 40px;
+    }
+
+    .class-inner ul li {
+        width: 49.16%;
+        padding: 20px 0px;
+    }
+
+    .class-inner ul li:nth-child(2),
+    .class-inner ul li:nth-child(4),
+    .class-inner ul li:nth-child(6),
+    .class-inner ul li:nth-child(8),
+    .class-inner ul li:nth-child(10) {
+        margin-right: 0;
+    }
+
+    .class-inner ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .class-inner ul li p {
+        font-size: 12px;
+    }
+
+    .class-inner ul li i {
+        font-size: 22px;
+    }
+
+    /* Class part end */
+
+    /* Logo part start */
+    #class-part {
+        padding: 0px 0px 44px;
+    }
+
+    #slider-part {
+        padding: 0px 0px 44px;
+    }
+
+    /* Logo part end */
+
+    /* Footer part start */
+    .week {
+        padding-bottom: 15px;
+    }
+
+    .footer-row-1 h3 {
+        margin-bottom: 15px;
+    }
+
+    .footer-row-1 p {
+        margin-bottom: 15px;
+    }
+
+    .footer-row-1 p:last-child {
+        padding-bottom: 20px;
+    }
+
+    .footer-row-1 .photo ul li {
+        width: 22.47%;
+    }
+
+    .footer-row-1 .photo ul li:nth-child(4),
+    .footer-row-1 .photo ul li:nth-child(8),
+    .footer-row-1 .photo ul li:last-child {
+        margin-right: 0;
+    }
+
+    .photo {
+        padding-bottom: 15px;
+    }
+
+    .footer-row-1 a {
+        padding-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .foot_cont a:nth-child(2),
+    .foot_cont a:nth-child(3),
+    .foot_cont a:nth-child(4) {
+        display: block;
+    }
+
+    /* Footer part end */
+
+}

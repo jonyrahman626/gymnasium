@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?552b6c6c754fedd80ba686424a7b6f13") format("truetype"),
+url("./flaticon.woff?552b6c6c754fedd80ba686424a7b6f13") format("woff"),
+url("./flaticon.woff2?552b6c6c754fedd80ba686424a7b6f13") format("woff2"),
+url("./flaticon.eot?552b6c6c754fedd80ba686424a7b6f13#iefix") format("embedded-opentype"),
+url("./flaticon.svg?552b6c6c754fedd80ba686424a7b6f13#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "stationary-bike": "\f101",
+    "buddhist-yoga-pose": "\f102",
+    "skipping-rope": "\f103",
+    "man-lifting-weight": "\f104",
+    "weightlifting": "\f105",
+    "exercise": "\f106",
+    "exercise-1": "\f107",
+);
+
+.flaticon-stationary-bike:before {
+    content: map-get($flaticon-map, "stationary-bike");
+}
+.flaticon-buddhist-yoga-pose:before {
+    content: map-get($flaticon-map, "buddhist-yoga-pose");
+}
+.flaticon-skipping-rope:before {
+    content: map-get($flaticon-map, "skipping-rope");
+}
+.flaticon-man-lifting-weight:before {
+    content: map-get($flaticon-map, "man-lifting-weight");
+}
+.flaticon-weightlifting:before {
+    content: map-get($flaticon-map, "weightlifting");
+}
+.flaticon-exercise:before {
+    content: map-get($flaticon-map, "exercise");
+}
+.flaticon-exercise-1:before {
+    content: map-get($flaticon-map, "exercise-1");
+}
